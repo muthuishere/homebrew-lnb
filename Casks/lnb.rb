@@ -13,22 +13,22 @@ cask "lnb" do
   on_macos do
     on_intel do
       url "https://github.com/muthuishere/lnb/releases/download/v0.2.18/lnb_0.2.18_Darwin_x86_64.tar.gz"
-      sha256 "e1c5482d8de0b61d972683dc139f414e71e94a5605d3c970c29b11218f8b0d40"
+      sha256 "da1919806af665ff0d22cd62723d2aa816b724b04435a507fbfa3c2e94ab4421"
     end
     on_arm do
       url "https://github.com/muthuishere/lnb/releases/download/v0.2.18/lnb_0.2.18_Darwin_arm64.tar.gz"
-      sha256 "19bb8efa135ce81a6ca33e67f5eb1e5159e816300a9899b0ddc768799a3585a3"
+      sha256 "3854eabc8daeb19e7815b39fa1fcf4b9d269562dde280ed04efe8caf74d9f22c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/muthuishere/lnb/releases/download/v0.2.18/lnb_0.2.18_Linux_x86_64.tar.gz"
-      sha256 "62133d4f4d1367814585647839d6f729bac51b89e7094ba39c5fae85f3113f7a"
+      sha256 "2fd755f439b76f922f771fbabb5a6cea8aae7786d80ba2e4ecc2c2ca2786dccf"
     end
     on_arm do
       url "https://github.com/muthuishere/lnb/releases/download/v0.2.18/lnb_0.2.18_Linux_arm64.tar.gz"
-      sha256 "2a27488efee9177a6f68d1c86d50fc6df0f51910800b3f068d8d914f709de28c"
+      sha256 "cf69d12eb3cbcb726d1b9a76b0f59c947e976b8ac7a6a1b68f1e736401fa5370"
     end
   end
 

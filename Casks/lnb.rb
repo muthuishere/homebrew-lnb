@@ -2,7 +2,7 @@
 cask "lnb" do
   desc "A cross-platform utility that makes command-line tools accessible from anywhere by creating symbolic links or wrapper scripts in your system's PATH"
   homepage "https://github.com/muthuishere/lnb"
-  version "0.3.15"
+  version "0.3.16"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "lnb" do
 
   on_macos do
     on_intel do
-      url "https://github.com/muthuishere/lnb/releases/download/v0.3.15/lnb_0.3.15_Darwin_x86_64.tar.gz"
-      sha256 "a4992298d9babff9a6819b69bd6762eee8cc3ccba3ff628e72c6c96a729241ed"
+      url "https://github.com/muthuishere/lnb/releases/download/v0.3.16/lnb_0.3.16_Darwin_x86_64.tar.gz"
+      sha256 "b823281e40e030459b6d0fd2c655d6ba25d5c88cf45474a3e2d3656e52f9a280"
     end
     on_arm do
-      url "https://github.com/muthuishere/lnb/releases/download/v0.3.15/lnb_0.3.15_Darwin_arm64.tar.gz"
-      sha256 "0e27a2c69f1d7e3d7ea113245d5cff5549012b7ce4f5cef5bd74cebe5f5e609e"
+      url "https://github.com/muthuishere/lnb/releases/download/v0.3.16/lnb_0.3.16_Darwin_arm64.tar.gz"
+      sha256 "d6e00c85c0d2903288936454c0ed4afb1ca581ac21f372e28fcf72f2f97442a7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/muthuishere/lnb/releases/download/v0.3.15/lnb_0.3.15_Linux_x86_64.tar.gz"
-      sha256 "af213799295c50f8eb2b2a786d2bbd1d143829f1e0b54a78cdc5fa8d9a1be233"
+      url "https://github.com/muthuishere/lnb/releases/download/v0.3.16/lnb_0.3.16_Linux_x86_64.tar.gz"
+      sha256 "ab06b4c99d1ad09bcfa7bab6fbf37a89fe9cd11a975f9c0eed46b5090fb1595e"
     end
     on_arm do
-      url "https://github.com/muthuishere/lnb/releases/download/v0.3.15/lnb_0.3.15_Linux_arm64.tar.gz"
-      sha256 "55a2aa8b77407fb1266dff1f89466023d47616928d74b629fce71a359afd734b"
+      url "https://github.com/muthuishere/lnb/releases/download/v0.3.16/lnb_0.3.16_Linux_arm64.tar.gz"
+      sha256 "0fbc77d8925bab69c4df4f18991e5cb6bd8859bab12474e9b30d3be1e68b3a13"
     end
   end
 
